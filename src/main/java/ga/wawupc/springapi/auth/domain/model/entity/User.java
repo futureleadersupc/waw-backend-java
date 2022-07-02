@@ -38,4 +38,7 @@ public class User extends AuditModel {
 
   @Column(length = 256)
   private String about;
+
+  @Column(length = 60, nullable = false)
+  private String password;
 }
